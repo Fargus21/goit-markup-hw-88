@@ -1,0 +1,31 @@
+.heading {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: var(--header-color)
+}
+.heading__container {
+    display: flex;
+    align-items: center;
+}
+.heading--borderline {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ECECEC;
+}
+.heading--active::after {
+    content: '';
+    position: absolute;
+    bottom: 0%;
+    width: 48px;
+    height: 4px;
+    background: var(--logo-btn-color);
+    border-radius: 2px;
+    transform: translateX(-100%) ;
+}
+.heading--active:visited {
+    color: var(--logo-btn-color);
+}
+.heading__logo {
+    margin-right: 93px;
+}

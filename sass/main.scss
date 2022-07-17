@@ -1,0 +1,27 @@
+@import "./utils/variables";
+@import "./utils/reset";
+@import "./utils/container.scss";
+
+@import "./components/buttons";
+@import "./components/portfolio-btn";
+@import "./components/logo";
+@import "./components/nav";
+@import "./components/contacts";
+@import "./components/modal";
+
+
+@import "./layouts/mob-menu";
+@import "./layouts/heading";
+@import "./layouts/portfolio";
+@import "./layouts/hero";
+@import "./layouts/features";
+@import "./layouts/projects";
+@import "./layouts/team";
+@import "./layouts/clients";
+@import "./layouts/portfolio-btn-sec";
+@import "./layouts/portfolio-photo";
+
+@import "./footer/footer";
+@import "./footer/adress";
+@import "./footer/footer-soc";
+@import "./footer/subscribe";

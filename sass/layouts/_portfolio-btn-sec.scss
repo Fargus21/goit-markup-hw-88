@@ -1,0 +1,30 @@
+.btn-sec {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.btn__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 8px;
+    list-style: none;
+    margin-bottom: 50px;
+    @media screen and (min-width: 768px) {
+        align-items: center;
+        justify-content: center;
+    }
+    @media screen and (min-width: 1200px) {
+        align-items: center;
+        justify-content: center;
+    }
+}
+// .btn__list {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     list-style: none;
+//     margin-bottom: 50px;
+// }
+// .btn__items:not(:first-child) {
+//     margin-left: 8px;
+// }

@@ -1,0 +1,13 @@
+.portfolio--active:visited {
+    color:var(--logo-btn-color);
+}
+.portfolio--active::after {
+    content: '';
+    position: absolute;
+    bottom: 0%;
+    width: 78px;
+    height: 4px;
+    background: var(--logo-btn-color);
+    border-radius: 2px;
+    transform: translateX(-100%) ;
+}

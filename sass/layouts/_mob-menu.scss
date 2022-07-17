@@ -1,0 +1,118 @@
+.menu-btn-open {
+    display: block;
+    margin-left: auto;
+    border: none;
+    background-color: transparent;
+    @media screen and (min-width: 768px) {
+            display: none;
+    }
+}
+.menu-btn-open:hover {
+    fill: var(--logo-btn-color);
+}
+.menu-btn-open:focus {
+    fill: var(--logo-btn-color);
+}
+.mob-menu {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: var(--header-color);
+    width: 100vw;
+    height: 100vh;  
+}
+.mob-close-btn {
+    border: none;
+    background-color: transparent;
+    display: block;
+    margin-left: auto;
+}
+.mob-close-btn:hover {
+    fill: var(--logo-btn-color);
+}
+.mob-close-btn:focus {
+    fill: var(--logo-btn-color);
+}
+.mob-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 48px;
+    padding-left: 15px;
+    
+}
+.mob-menu-list {
+    list-style: none;
+}
+.mob-menu-item:not(:last-child) {
+    margin-bottom: 36px;
+}
+.mob-menu-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.mob-menu-link:hover {
+    color: var(--logo-btn-color);
+}
+.mob-menu-link:focus {
+    color: var(--logo-btn-color);
+}
+.mob-menu-contact {
+    list-style: none;
+}
+.mob-tel-item {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: var(--logo-btn-color);
+}
+.mob-site-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.mob-cont-list {
+    list-style: none;
+    display: flex;
+}
+.mob-contact-item {
+    margin-bottom: 32px;
+}
+.mob-cont-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.cont-links::after {
+    content: '';
+    margin-left: 5px;
+    margin-right: 5px;
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+    @media screen and (min-width: 480px) {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+.mob-social {
+    margin-top: 64px;
+}
+.studio-link-active {
+    color: var(--logo-btn-color);
+}
+.portfolio-link-active {
+    color: var(--logo-btn-color);
+}
